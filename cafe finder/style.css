@@ -1,0 +1,139 @@
+/* Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+}
+
+/* Header */
+header {
+  background: #6f4e37; /* warm coffee brown */
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Map */
+#map {
+  height: calc(100vh - 100px); /* header height deducted */
+  width: 100%;
+}
+
+/* Popup card */
+.leaflet-popup-content-wrapper {
+  background: #fff8f0;  /* latte background */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  padding: 0.5rem;
+}
+
+.leaflet-popup-content {
+  font-family: 'Poppins', sans-serif;
+  color: #4b3832; /* dark coffee text */
+}
+
+.popup-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #4b3832;
+}
+
+.popup-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+
+#search-container {
+  position: absolute;
+  top: 110px; /* below header */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: 300px;
+}
+
+#search {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 1px solid #6f4e37;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+#sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background-color: #c49b76;
+  border-radius: 4px;
+}
+
+/* Sidebar container */
+#sidebar {
+  position: absolute;
+  top: 150px;           /* adjust below header */
+  left: 15px;
+  width: 240px;
+  background: rgba(255, 248, 240, 0.95);  /* latte-colored */
+  border-radius: 15px;
+  padding: 1rem 0.8rem;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  font-family: 'Poppins', sans-serif;      /* nicer modern font */
+  z-index: 1000;
+}
+
+/* Sidebar heading */
+#sidebar h2 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+  color: #6f4e37;      /* coffee brown */
+  font-weight: 600;
+}
+
+/* Cafe list items */
+#cafe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#cafe-list li {
+  cursor: pointer;
+  padding: 0.5rem 0.6rem;
+  margin: 0.2rem 0;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  background: #fff8f0;        /* light latte background */
+  font-size: 0.95rem;
+  color: #4b2e2e;             /* darker coffee text */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#cafe-list li:hover {
+  background-color: #f3e5d0;  /* hover latte tone */
+  transform: translateX(4px); /* subtle movement */
+}

@@ -1,0 +1,23 @@
+[
+  { "name": "Third Wave Coffee", "location": [12.975, 77.605], "rating": 4.5, "desc": "Trendy cafe with great cold brews." },
+  { "name": "Matteo Coffea", "location": [12.972, 77.598], "rating": 4.2, "desc": "Cozy spot for work & chill." },
+  { "name": "Cafe Coffee Day", "location": [12.968, 77.590], "rating": 4.0, "desc": "Classic Indian coffee chain." },
+  { "name": "Blue Tokai", "location": [12.977, 77.602], "rating": 4.6, "desc": "Artisanal coffee roasters, great vibes." },
+  { "name": "Third Space Coffee", "location": [12.974, 77.587], "rating": 4.3, "desc": "Perfect for work and chill afternoons." },
+  { "name": "The Coffee Bean", "location": [12.970, 77.603], "rating": 4.1, "desc": "International coffee chain, consistent taste." },
+  { "name": "Dyu Art Cafe", "location": [12.966, 77.592], "rating": 4.4, "desc": "Artsy cafe with outdoor seating." },
+  { "name": "Araku Coffee", "location": [12.972, 77.585], "rating": 4.5, "desc": "Smooth coffee with cozy ambiance." },
+  { "name": "Cafe Max", "location": [12.967, 77.597], "rating": 4.0, "desc": "Great espresso and desserts." },
+  { "name": "Third Line Coffee", "location": [12.974, 77.600], "rating": 4.2, "desc": "Minimalist cafe with strong brews." },
+
+  { "name": "Lazy Owl Cafe", "location": [12.989, 77.598], "rating": 4.4, "desc": "Relaxed vibe with great sandwiches." },
+  { "name": "Cafe Terra", "location": [12.960, 77.615], "rating": 4.3, "desc": "Outdoor seating and fresh brews." },
+  { "name": "Matteo Express", "location": [12.981, 77.585], "rating": 4.2, "desc": "Quick bites and espresso." },
+  { "name": "The Coffee Studio", "location": [12.955, 77.590], "rating": 4.1, "desc": "Small, cozy studio cafe." },
+  { "name": "The Ants Cafe", "location": [12.978, 77.607], "rating": 4.0, "desc": "Perfect for brunch and coffee." },
+  { "name": "CuppaJoy", "location": [12.965, 77.610], "rating": 4.5, "desc": "Desserts and coffee in a bright atmosphere." },
+  { "name": "Beans & Brews", "location": [12.983, 77.592], "rating": 4.3, "desc": "Modern cafe with specialty coffees." },
+  { "name": "Mocha House", "location": [12.959, 77.605], "rating": 4.2, "desc": "Great place to work and sip coffee." },
+  { "name": "Perk Up Cafe", "location": [12.985, 77.610], "rating": 4.4, "desc": "Friendly staff and cozy corners." },
+  { "name": "Urban Grind", "location": [12.958, 77.595], "rating": 4.1, "desc": "Coffee and light meals in a modern space." }
+]

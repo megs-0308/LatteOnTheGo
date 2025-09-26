@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> LatteOnTheGo </title>
+
+  <!-- Leaflet CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <style>
+    /* Map must have a height to be visible */
+    #map {
+      height: 100vh;   /* Full screen height */
+      width: 100%;     /* Full width */
+    }
+  </style>
+</head>
+<body>
+
+
+     <!-- App Header -->
+  <header>
+    <h1>☕ LatteOnTheGo</h1>
+    <p>Find your next favorite cafe in the city</p>
+  </header
+
+
+  <!-- Search -->
+  <div id="search-container">
+    <input type="text" id="search" placeholder="Search cafes..." />
+  </div>
+
+  <div id="sidebar">
+  <h2>All Cafes</h2>
+  <ul id="cafe-list"></ul>
+</div>
+
+  <!-- Map Container -->
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script 
+    src="https://unpkg.com/leaflet/dist/leaflet.js">
+  </script>
+
+  <!-- Link to external script -->
+   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

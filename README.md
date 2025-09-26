@@ -1,35 +1,32 @@
-# ☕ LatteOnTheGo
+# LatteOnTheGo ☕  
 
-![Coffee Banner](./screenshots/banner.png)  
-
-**LatteOnTheGo** is a modern, interactive cafe discovery platform built for Bangalore, featuring smooth map interactions, dynamic coffee mug markers, real-time search, and a cozy coffee-themed UI/UX.  
+**Discover your next favorite cafe in Bangalore with an interactive, coffee-themed map experience.**  
 
 ---
 
-## 🎯 Features
+## Overview
 
-- 🌍 **Interactive Map:** Leaflet.js + OpenStreetMap with a warm coffee-toned theme.  
-- 🏪 **Dynamic Cafe Markers:** Coffee mug icons showing name, description, and ratings.  
-- 🔍 **Real-Time Search:** Instantly filter cafes by name.  
-- 📋 **Clickable Sidebar:** Quickly navigate to any cafe with a single click.  
-- 📍 **User Geolocation:** See your current location with a radius indicator.  
-- 🎨 **Premium UI/UX:** Coffee-colored palette, modern fonts, hover animations.  
-- 📂 **JSON-driven Data:** Add or update cafes easily via `cafes.json`.
+LatteOnTheGo is an interactive urban cafe discovery platform built using **Leaflet.js** and **OpenStreetMap**. It features dynamic cafe markers, real-time search, geolocation, and a sleek, modern UI/UX designed for a cozy, coffee-shop vibe.
 
 ---
 
-## 💻 Tech Stack
+## Features
+
+- **Interactive Map:** Smooth panning and zooming with a coffee-inspired theme.  
+- **Dynamic Markers:** Custom coffee mug icons with popups showing name, description, and ratings.  
+- **Real-Time Search:** Filter cafes instantly by name.  
+- **Sidebar Navigation:** Clickable list of all cafes for quick access.  
+- **User Geolocation:** See your location and nearby cafes.  
+- **Responsive Design:** Mobile-friendly with modern typography and color palette.  
+
+---
+
+## Tech Stack
 
 - **Frontend:** HTML5, CSS3, JavaScript (ES6)  
 - **Mapping:** Leaflet.js, OpenStreetMap  
-- **Data:** JSON for cafe information  
-- **Design:** Custom coffee mug icons, Google Fonts ('Poppins')
+- **Data:** JSON for cafe details  
+- **Design:** Custom icons, Google Fonts (Poppins), coffee-inspired color theme  
 
 ---
-
-## 🚀 Getting Started
-
-1. **Clone the repository**  
-```bash
-git clone https://github.com/<your-username>/LatteOnTheGo.git
 
